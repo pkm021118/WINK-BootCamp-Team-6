@@ -12,9 +12,9 @@
 
 | 학번       | 이름                                        | 분야                                                                                                            |
 |------------|-------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 20223051   | [류진](https://github.com/plzzzean)      | ![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=white) |
-| 20212992   | [장형진](https://github.com/zang1029)      | ![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=white) |
-| 20212967   | [박건민](https://github.com/pkm021118) | ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white)
+| 20253096   | [류진](https://github.com/plzzzean)      | ![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=white) |
+| 20252406   | [장형진](https://github.com/zang1029)      | ![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=white) |
+| 20212992   | [박건민](https://github.com/pkm021118) | ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white)
 
 
 ---
