@@ -5,6 +5,8 @@ import com.example.bootcamp.service.CommentService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping
 public class CommentController {
@@ -28,5 +30,12 @@ public class CommentController {
     public ResponseEntity<Void> deleteComment(@PathVariable Long commentId) {
         commentService.deleteComment(commentId);
         return ResponseEntity.noContent().build();
+    }
+
+    // 댓글 조회 (게시글 기준)
+    @GetMapping("/boards/{boardId}/comments")
+    public ResponseEntity<List<Comment>> getCommentsByBoardId(@PathVariable Long boardId) {
+        List<Comment> comments = commentService.getCommentsByBoardId(boardId);
+        return ResponseEntity.ok(comments);
     }
 }

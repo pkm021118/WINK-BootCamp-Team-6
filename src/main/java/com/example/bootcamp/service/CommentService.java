@@ -6,6 +6,7 @@ import com.example.bootcamp.repository.BoardRepository;
 import com.example.bootcamp.repository.CommentRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -34,5 +35,10 @@ public class CommentService {
     // 댓글 삭제
     public void deleteComment(Long commentId) {
         commentRepository.deleteById(commentId);
+    }
+
+    // 댓글 조회 (게시글 기준)
+    public List<Comment> getCommentsByBoardId(Long boardId) {
+        return commentRepository.findByBoardId(boardId);
     }
 }
