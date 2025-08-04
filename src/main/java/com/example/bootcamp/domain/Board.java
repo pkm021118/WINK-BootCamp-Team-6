@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
+@Entity(name = "post")  // 💥 이거 추가: 실제 DB 테이블명과 맞춤
 public class Board {
 
     @Id

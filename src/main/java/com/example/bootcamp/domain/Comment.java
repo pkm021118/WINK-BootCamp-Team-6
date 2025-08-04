@@ -1,5 +1,6 @@
 package com.example.bootcamp.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 @Entity
@@ -13,7 +14,8 @@ public class Comment {
     private String content;
 
     @ManyToOne
-    @JoinColumn(name = "board_id")
+    @JoinColumn(name = "post_id")
+    @JsonIgnore  // 무한 루프 방지
     private Board board;
 
     public Comment() {}
