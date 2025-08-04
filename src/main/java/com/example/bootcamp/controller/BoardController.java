@@ -24,7 +24,7 @@ public class BoardController {
         return boardService.getAllBoards();
     }
 
-    // 글 하나 조회
+    // 글 하나 조회 (상세 조회)
     @GetMapping("/{id}")
     public ResponseEntity<Board> getBoardById(@PathVariable Long id) {
         return boardService.getBoardById(id)

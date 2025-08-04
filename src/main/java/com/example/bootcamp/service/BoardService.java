@@ -17,12 +17,12 @@ public class BoardService {
         this.boardRepository = boardRepository;
     }
 
-    // 글 전체 목록 불러오기
+    // 전체 글 목록 조회
     public List<Board> getAllBoards() {
         return boardRepository.findAll();
     }
 
-    // 글 하나 조회
+    // 글 상세 조회
     public Optional<Board> getBoardById(Long id) {
         return boardRepository.findById(id);
     }
